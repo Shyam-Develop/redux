@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+.wrapper{
+  background-image: url(./assets/img/meat1.jpg);
+  background-size: cover;
+  opacity: 0.9;
+}
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,700&display=swap'); */
+html,
+.content {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow-y: auto;
+  /* font-weight: 900; */
+
+}
+
+/* .app{
+  display: flex;
+  flex-direction: column; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}  */
+html {
+  height: 100%; /* Ensure html and body take full height */
+  margin: 0; /* Remove default margin */
+  font-family: 'Poppins', sans-serif;
+  /* overflow: hidden; Prevent double scrollbar */
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto; /* Allows vertical scrolling */
+}
+
+.wrapper{
+  background-image: url(./assets/img/meat1.jpg);
+  background-size: cover;
+  opacity: 0.9;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.selectedRow {
+  background-color: #A5D6A7 !important; /* Change this to your desired color */
+}
+
+/* .wrapperAuth{
+  height: 100vh;
+
+  overflow: auto;
+  width: 100%;
+  display: table;
+  opacity: 0.9;
+} */
+.my-swal {
+  z-index: 1400 !important;
+}
